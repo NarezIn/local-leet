@@ -16,4 +16,12 @@ def is_palindrome(x: int) -> bool:
     Returns:
         bool: True if x is a palindrome, False otherwise.
     """
-    pass
+    s, f = 0, len(str(x)) - 1
+    word = str(x)
+    while s < f:
+        if word[s] == word[f]:
+            s += 1
+            f -= 1
+        else:
+            return False
+    return True
