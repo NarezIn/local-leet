@@ -16,4 +16,19 @@ def is_valid(s: str) -> bool:
     Returns:
         bool: True if every bracket is properly matched and nested, False otherwise.
     """
-    pass
+    temp = []
+    for paren in s:
+        if paren in "({[":
+            temp.append(paren)
+        else:
+            if temp:
+                poped = temp.pop()
+                if paren == ")" and poped != "(":
+                    return False
+                elif paren == "}" and poped != "{":
+                    return False
+                elif paren == "]" and poped != "[":
+                    return False
+            else:
+                return False
+    return not temp
