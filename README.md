@@ -112,7 +112,7 @@ You can also run it locally: `python .github/scripts/update_progress.py`
 | # | Problem | Difficulty | Status |
 |---|---------|------------|--------|
 | 001 | Two Sum | Easy | ✅ Solved |
-| 002 | Palindrome Number | Easy | ❌ Unsolved |
+| 002 | Palindrome Number | Easy | ✅ Solved |
 | 003 | Valid Parentheses | Easy | ❌ Unsolved |
 | 004 | Longest Substring No Repeat | Medium | ❌ Unsolved |
 | 005 | Longest Palindromic Substring | Medium | ❌ Unsolved |
