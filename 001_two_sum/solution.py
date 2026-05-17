@@ -21,9 +21,12 @@ def two_sum(nums: list[int], target: int) -> list[int]:
     Returns:
         list[int]: A two-element list [i, j] where nums[i] + nums[j] == target.
     """
+    # items that have traversed would be stored in this map.
+    # key: num, value: index
     seen = {}
     for i, num in enumerate(nums):
-        complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
+        want = target - num
+        if seen.get(want) is not None:
+            return [i, seen[want]]
+        else:
+            seen[num] = i
