@@ -12,7 +12,7 @@ You can also run it locally: `python .github/scripts/update_progress.py`
 |---|---------|------------|--------|
 | 001 | Two Sum | Easy | ✅ Solved |
 | 002 | Palindrome Number | Easy | ✅ Solved |
-| 003 | Valid Parentheses | Easy | ❌ Unsolved |
+| 003 | Valid Parentheses | Easy | ✅ Solved |
 | 004 | Longest Substring No Repeat | Medium | ❌ Unsolved |
 | 005 | Longest Palindromic Substring | Medium | ❌ Unsolved |
 | 006 | Container With Most Water | Medium | ❌ Unsolved |
