@@ -9,6 +9,10 @@ Each problem lives in its own subdirectory:
 - `solution.py` — your solution goes here (fill in the function body)
 - `test_solution.py` — pytest test cases that validate your solution
 
+## How to start
+
+TODO: Write this part later.
+
 ## How to run tests
 
 From within a problem directory:
