@@ -103,20 +103,25 @@ Or run all problems from the root:
 pytest -v
 ```
 
-## Problems
+## Progress
 
-| # | Title | Difficulty |
-|---|-------|------------|
-| 001 | Two Sum | Easy |
-| 002 | Palindrome Number | Easy |
-| 003 | Valid Parentheses | Easy |
-| 004 | Longest Substring Without Repeating Characters | Medium |
-| 005 | Longest Palindromic Substring | Medium |
-| 006 | Container With Most Water | Medium |
-| 007 | 3Sum | Medium |
-| 008 | Group Anagrams | Medium |
-| 009 | Product of Array Except Self | Medium |
-| 010 | Coin Change | Medium |
+This table is automatically updated by CI on every push to `main`.
+You can also run it locally: `python .github/scripts/update_progress.py`
+
+<!-- PROGRESS:START -->
+| # | Problem | Difficulty | Status |
+|---|---------|------------|--------|
+| 001 | Two Sum | Easy | ✅ Solved |
+| 002 | Palindrome Number | Easy | ❌ Unsolved |
+| 003 | Valid Parentheses | Easy | ❌ Unsolved |
+| 004 | Longest Substring No Repeat | Medium | ❌ Unsolved |
+| 005 | Longest Palindromic Substring | Medium | ❌ Unsolved |
+| 006 | Container With Most Water | Medium | ❌ Unsolved |
+| 007 | Three Sum | Medium | ❌ Unsolved |
+| 008 | Group Anagrams | Medium | ❌ Unsolved |
+| 009 | Product Except Self | Medium | ❌ Unsolved |
+| 010 | Coin Change | Medium | ❌ Unsolved |
+<!-- PROGRESS:END -->
 
 ## Tips
 
