@@ -2,6 +2,26 @@
 
 10 LeetCode-style problems for offline practice.
 
+## Progress
+
+This table is automatically updated by CI on every push to `main`.
+You can also run it locally: `python .github/scripts/update_progress.py`
+
+<!-- PROGRESS:START -->
+| # | Problem | Difficulty | Status |
+|---|---------|------------|--------|
+| 001 | Two Sum | Easy | ✅ Solved |
+| 002 | Palindrome Number | Easy | ✅ Solved |
+| 003 | Valid Parentheses | Easy | ❌ Unsolved |
+| 004 | Longest Substring No Repeat | Medium | ❌ Unsolved |
+| 005 | Longest Palindromic Substring | Medium | ❌ Unsolved |
+| 006 | Container With Most Water | Medium | ❌ Unsolved |
+| 007 | Three Sum | Medium | ❌ Unsolved |
+| 008 | Group Anagrams | Medium | ❌ Unsolved |
+| 009 | Product Except Self | Medium | ❌ Unsolved |
+| 010 | Coin Change | Medium | ❌ Unsolved |
+<!-- PROGRESS:END -->
+
 ## Structure
 
 Each problem lives in its own subdirectory:
@@ -102,26 +122,6 @@ Or run all problems from the root:
 ```
 pytest -v
 ```
-
-## Progress
-
-This table is automatically updated by CI on every push to `main`.
-You can also run it locally: `python .github/scripts/update_progress.py`
-
-<!-- PROGRESS:START -->
-| # | Problem | Difficulty | Status |
-|---|---------|------------|--------|
-| 001 | Two Sum | Easy | ✅ Solved |
-| 002 | Palindrome Number | Easy | ✅ Solved |
-| 003 | Valid Parentheses | Easy | ❌ Unsolved |
-| 004 | Longest Substring No Repeat | Medium | ❌ Unsolved |
-| 005 | Longest Palindromic Substring | Medium | ❌ Unsolved |
-| 006 | Container With Most Water | Medium | ❌ Unsolved |
-| 007 | Three Sum | Medium | ❌ Unsolved |
-| 008 | Group Anagrams | Medium | ❌ Unsolved |
-| 009 | Product Except Self | Medium | ❌ Unsolved |
-| 010 | Coin Change | Medium | ❌ Unsolved |
-<!-- PROGRESS:END -->
 
 ## Tips
 
